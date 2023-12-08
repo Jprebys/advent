@@ -19,7 +19,7 @@ int main()
 
     int board[101][101][101] = {0};
 
-    std::ifstream file("2/input_2.txt");
+    std::ifstream file("2/input.txt");
 
     std::string line;
 
@@ -59,15 +59,8 @@ int main()
                 }
             }
         }
-
-
-
     }
 
-
     printf("%d\n", total);
-
-
-    printf("hello, world! %zu\n", sizeof(board));
     return 0;
 }
